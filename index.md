@@ -3,10 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Embedded Messaging Test</title>
 </head>
 <body>
-    <h1>Test Message</h1>
     
     <script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
      <script type='text/javascript'>
@@ -28,10 +26,5 @@
         }
     </script>
     <script type='text/javascript' src='https://mtechmdm--voicebox.sandbox.my.site.com/ESWSonimChatSupport1723196645426/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
-    
-    <h1>Test</h1>
-    
-    <!-- Add Button Here -->
-    <button onclick="window.open('https://mtechmdm--voicebox--c.sandbox.vf.force.com/apex/SonimChatSupport?core.apexpages.request.devconsole=1', '_blank')">Open Sonim Chat support</button>
 </body>
 </html>
